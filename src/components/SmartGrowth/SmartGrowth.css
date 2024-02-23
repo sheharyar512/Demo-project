@@ -21,7 +21,7 @@
 
 .slider-div {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -94,7 +94,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 2rem;
+  padding-top: 0.7rem;
 }
 
 .subtitle {
@@ -139,5 +139,72 @@
 
 .expanded {
   display: block;
+}
+@media only screen and (max-width: 1200px) {
+
+  .slider-div {
+    width: 90%;
+  }
+
+  .swiper-scrollbar {
+    bottom: 0.5rem !important;
+  }
+
+  .slide-des {
+    width: 80%;
+    text-align: center;
+  }
+
+  .testimonial-div {
+    padding: 1rem;
+  }
+
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    display: block;
+  }
+
+  .bottom-des {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .slider-image {
+    display: none;
+}
+
+  .slide-des {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .bottom-des {
+    font-size: 18px;
+  }
 }
 

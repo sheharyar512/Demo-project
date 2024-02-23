@@ -78,3 +78,65 @@
   height: auto;
   padding: 3rem;
 }
+
+.right-image {
+    width: 100%;
+    max-width: 300px;
+    height: 408px;
+    margin-top: 2rem;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 1200px) {
+	.policies-section-main {
+	  padding: 0px 30px 0px 30px;
+	}
+  
+	.policies-container {
+	  padding: 3rem 0rem 3rem 0rem;
+	}
+  
+	.policies-left,
+	.policies-right {
+	  width: 50%;
+	  height: auto;
+	  padding: 3rem;
+	}
+  
+	.policies-heading,
+	.policies-para {
+	  text-align: center;
+	}
+  }
+  
+  @media only screen and (max-width: 1200px) {
+	.policies-section,
+	.policies-container {
+	  height: auto;
+	}
+  
+	.policies-left,
+	.policies-right {
+	  width: 100%;
+	  padding: 2rem;
+	}
+  
+	.policies-para {
+	  padding: 2rem;
+	}
+  }
+  
+  @media only screen and (max-width: 600px) {
+	.policies-para {
+	  padding: 1rem;
+	}
+  
+	.policies-left,
+	.policies-right {
+	  padding: 1rem;
+	}
+  }
+  

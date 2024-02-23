@@ -18,7 +18,7 @@ const Policies = () => {
                   </p>
               </div>
               <div className='policies-right'>
-              <img className='side-image' src={photo07} alt="Get Involved" />
+              <img className='right-image' src={photo07} alt="Get Involved" />
               </div>
             </div>
           </div>
