@@ -1,45 +1,143 @@
-/* YourComponent.css */
-
-body {
-  background-color: #F5F5FF;
-}
-
-.wrapper {
-  padding: 70px 0;
-  overflow-x: hidden;
-}
-
-.my-slider {
-  padding: 0 70px;
-}
-
-.slick-initialized .slick-slide {
-  background-color: #b32532;
-  color: #FFF;
-  height: 200px;
-  margin: 0 15px 0 0;
+.split-container {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.upper-half {
+  width: 100%;
+  height: 50vh;
+  background-color: #FFFFFF;
+}
+
+.lower-half {
+  width: 100%;
+  height: 50vh;
+  background-color: #F0F3F8;
+}
+
+.slider-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 100%; 
+}
+
+.swiper-scrollbar {
+  position: absolute;
+  bottom: 1rem !important;
+  width: 8px;
+  height: 10px !important;
+}
+
+.swiper-scrollbar .swiper-scrollbar-drag {
+  background-color: #0082C8; 
+}
+
+.swiper-scrollbar-drag {
+  border-radius: 4px; 
+  height: 8px !important;
+  border: 1px solid #000;
+}
+
+.swiper-scrollbar-drag:hover {
+  background-color: #FFA812; 
+}
+
+.slide-wrap{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.slide-des{
+  width: 60%;
+  height: auto;
+  padding: 3rem;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
 }
 
-.slick-next,
-.slick-prev {
-  z-index: 5;
+.testimonial-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 3rem 1rem 3rem;
 }
 
-.slick-next {
-  right: 15px;
+.slider-image{
+  width: 600px;
+  height: 460px;
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.slick-prev {
-  left: 15px;
+
+
+.title {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #00245D;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
 }
 
-.slick-next:before,
-.slick-prev:before {
-  color: #000;
-  font-size: 26px;
+.subtitle {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+.acronym {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.border-div{
+  width: 100%;
+  border: 1px solid #FFFFFF;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  display: none;
+  text-align: justify;
+	text-justify: inter-word;
+}
+
+.bottom-des{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 25px;
+  padding-top: 3rem;
+}
+
+.expanded {
+  display: block;
+}
 
