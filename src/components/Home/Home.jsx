@@ -7,8 +7,8 @@ import Policies from '../Policies/Policies';
 const Home = () => {
   return (
     <>
-	{/* <GetInvolved/> */}
-  {/* <SmartGrowth/> */}
+	<GetInvolved/>
+  <SmartGrowth/>
   <Policies/>
   </>
   )

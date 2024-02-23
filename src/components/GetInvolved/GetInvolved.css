@@ -28,7 +28,7 @@
 	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
-	padding: 3rem 0rem 3rem 0rem;
+	padding: 2rem 0rem 2rem 0rem;
 	background-color: #f5f5f5;
 	border-radius: 5px;
 	text-align: center;
@@ -50,7 +50,7 @@
 
   .get-involved-para-wrap{
 	width: 100%;
-	height: 30vh ;
+	height: auto;
 	background-color: #0082C8;
 	color: #ffffff;
 	padding-bottom: 2rem;
@@ -99,16 +99,16 @@
     height: auto; 
 	position: absolute;
 	right: -18px;
-	top: 40.2%;
+	top: 41.8%;
 }
 
 .border-image{
 	width: 100%;
     max-width: 300px;
-    height: 418px;
+    height: 408px;
     margin-top: 2rem;
     position: absolute;
-    top: 40%;
+    /* top: 40%; */
     right: 0;
     transform: translateY(-50%);
 }
@@ -116,10 +116,117 @@
   .side-image  {
 	width: 100%;
     max-width: 300px;
-    height: 418px;
+    height: 408px;
     margin-top: 2rem;
     position: absolute;
-    top: 40%;
+    /* top: 40%; */
     right: 0;
     transform: translateY(-50%);
   }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+	.get-involved-container h2 {
+	  width: 100%;
+	  height: auto;
+	  padding: 2rem 2rem 2rem 9rem;
+	  font-size: 2.5rem;
+	}
+  
+	.get-involved-para-wrap {
+	  width: 100%;
+	  padding: 2rem 2rem 1rem 9rem;
+	}
+  
+	.get-involved-para-wrap button {
+	  font-size: 1.1rem;
+	  padding: 0.5rem 2rem;
+	}
+  }
+  
+  @media only screen and (min-width: 800px) and (max-width: 1200px) {
+	.get-involved-container h2 {
+	  width: 100%;
+	  height: 60px;
+	  padding: 2rem 2rem 2rem 6rem;
+	  font-size: 2rem;
+	}
+  
+	.get-involved-para-wrap {
+	  width: 100%;
+	  padding: 3.7rem 2rem 3rem 6rem;
+	}
+  
+	.get-involved-para-wrap button {
+	  font-size: 1rem;
+	  padding: 0.5rem 2rem;
+	  
+	}
+
+	.get-involved-para-wrap p {
+		width: 60%;
+		font-size: 1rem;
+		line-height: 1.5;
+		margin-bottom: 2rem;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+	.get-involved-container h2 {
+		width: 100%;
+		height: 60px;
+		padding: 2rem 2rem 2rem 2rem;
+		font-size: 2rem;
+	  }
+	
+	  .get-involved-para-wrap {
+		width: 100%;
+		padding: 3.7rem 2rem 2rem 2rem;
+	  }
+	
+	  .get-involved-para-wrap button {
+		font-size: 1rem;
+		padding: 0.5rem 2rem;
+		
+	  }
+  
+	  .get-involved-para-wrap p {
+		  width: 50%;
+		  font-size: 0.9rem;
+		  line-height: 1.5;
+		  margin-bottom: 2rem;
+		  text-align: justify;
+		  text-justify: inter-word;
+	  }
+	}
+
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+	.get-involved-container h2 {
+	  width: 100%;
+	  height: 30px;
+	  padding: 2rem 2rem 2rem 2rem;
+	  font-size: 1.5rem;
+	}
+  
+	.get-involved-para-wrap {
+	  width: 100%;
+	  padding: 2rem;
+	}
+  
+	.get-involved-para-wrap p {
+	  width: 100%;
+	  font-size: .9rem;
+	}
+  
+	.get-involved-para-wrap button {
+	  font-size: 1rem;
+	  padding: 0.5rem 1rem;
+	}
+  
+	.image-box,
+	.border-image {
+	  display: none;
+	}
+  }
+  
